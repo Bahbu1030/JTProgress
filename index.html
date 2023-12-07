@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#galeria">Portafolio</a>
+            <a href="#expertos">Especializados</a>
+            <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Steel & Wood Framing</h1>
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/checklist.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Proyeccion de Yeso</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi.
+                            Aspernatur.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Steel-Framing</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi.
+                            Aspernatur.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Wood-Framing</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem enim illum dolorum nisi.
+                            Aspernatur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpeg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpeg" class="img-galeria" alt="">
+                    <img src="img/tres.jpeg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpeg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpeg" class="img-galeria" alt="">
+                    <img src="img/seis.jpeg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Nosotros:</h2>
+            <!-- Swiper -->
+
+            <div  class="swiper mySwiper">
+                <div class="parallax-bg"  data-swiper-parallax="-23%"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300">Slide 1</div>
+                        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                                laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                                Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                                Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300">Slide 2</div>
+                        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                                laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                                Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                                Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                        <div class="text" data-swiper-parallax="-100">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                                laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                                Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                                Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">MindForgeLab 2023 ® </h2>
+                <p>Somos expertos en la creación de tus sueños????</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" class="social-media-icon">
+                    <i class='bx bxl-facebook'> </i>
+                </a>
+                <a href="https://twitter.com/?lang=es" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/" class="social-media-icon">
+                    <i class='bx bxl-instagram'> </i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            speed: 600,
+            parallax: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
