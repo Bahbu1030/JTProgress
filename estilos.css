@@ -394,7 +394,7 @@ footer {
 
 }
 
-/*.Nav {
+.Nav {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
@@ -407,7 +407,7 @@ footer {
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     
 
-}*/
+}
 
 :root {
     --swiper-navigation-color: rgb(238, 255, 0);
